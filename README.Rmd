@@ -18,6 +18,15 @@ knitr::opts_chunk$set(
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 For the beautiful visualizations I recommend checking the file *README.HTML*
 
+Package installation
+----------------
+
+```{r, eval=FALSE}
+devtools::install_github("fou-foo/FouR")
+```
+
+
+
 ```{r, echo = FALSE, include = FALSE, warning=FALSE, message=FALSE} 
 library(FouR)
 library(dplyr)
