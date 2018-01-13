@@ -6,4 +6,4 @@ library(dplyr)
 library(leaflet)
 skip_on_cran()
 test_check("FouR")
-skip_on_travis()
+
