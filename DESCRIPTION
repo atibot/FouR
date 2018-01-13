@@ -17,8 +17,7 @@ Suggests:
     rmarkdown,
     testthat, 
     pander,
-    xtable,
-    qpdf
+    xtable
 Author: J. Antonio García
 Maintainer: J. Antonio García <jose.ramirez@cimat.mx>
 Description: Package that can be used to work with the NOAA Significant Earthquakes dataset. With data sample. 
