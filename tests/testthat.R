@@ -1,0 +1,7 @@
+library(testthat)
+library(FouR)
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(leaflet)
+test_check("FouR")
