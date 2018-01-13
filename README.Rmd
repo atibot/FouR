@@ -2,7 +2,7 @@
 title: "README"
 author: "José Antonio García Ramirez"
 date: "January 12, 2018"
-output: github_document
+output: html_document
 ---
 
 ```{r, echo = FALSE, include=FALSE }

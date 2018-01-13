@@ -21,6 +21,8 @@ library(readr)
 
 ```
 
+For the beautiful visualizations I recommend checking the file *four.HTML*
+
 This vignette two process:
   - Cleaning 
   - Two different visualizations (over time - like [Doctor Who](https://en.wikipedia.org/wiki/Doctor_Who) would see it - and country)
