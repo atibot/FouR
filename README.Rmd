@@ -25,6 +25,9 @@ library(FouR)
 library(dplyr)
 library(ggplot2)
 library(readr)
+filename <- system.file("extdata/signif.txt", package = "FouR")
+data <- readr::read_tsv(filename)
+data <- eq_clean_data(data)
 ```
 
 INTRODUCTION
@@ -37,6 +40,7 @@ This vignette two process:
   
 
 
+
 DATA
 ---------------
 
@@ -45,9 +49,6 @@ DATA
 It is evident that the data set has numerous columns with  [null](https://en.wikipedia.org/wiki/Null_(SQL)) or missing values, <span style="color:RED"> although a future and interesting work for this package would be to apply data imputation techniques to the dataset </span>. For the above you can use the function `eq_clean_data()` and `eq_location_clean()`
 
 ```{r}
-filename <- system.file("extdata/signif.txt", package = "FouR")
-data <- readr::read_tsv(filename)
-data <- eq_clean_data(data)
 head(data, 3)
 ```
 
