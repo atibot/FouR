@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, echo = FALSE, include = FALSE} 
+```{r, echo = FALSE, include = FALSE, warning=FALSE, message=FALSE} 
 library(FouR)
 library(dplyr)
 library(ggplot2)
