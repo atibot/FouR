@@ -2,7 +2,7 @@
 title: "README"
 author: "José Antonio García Ramirez"
 date: "January 12, 2018"
-output: html_document
+output: github_document
 ---
 
 ```{r, echo = FALSE, include=FALSE }
@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 [![Travis-CI Build Status](https://travis-ci.org/fou-foo/FouR.svg?branch=master)](https://travis-ci.org/clems/FouR)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+For the beautiful visualizations I recommend checking the file *README.HTML*
 
 ```{r, echo = FALSE, include = FALSE, warning=FALSE, message=FALSE} 
 library(FouR)
